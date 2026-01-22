@@ -1,0 +1,154 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class searchformCAT
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.cat = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.pn = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.SuspendLayout()
+        '
+        'cat
+        '
+        Me.cat.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.cat.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.cat.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.cat.BorderColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.cat.BorderRadius = 10
+        Me.cat.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.cat.DefaultText = ""
+        Me.cat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.cat.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.cat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.cat.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.cat.FillColor = System.Drawing.Color.WhiteSmoke
+        Me.cat.FocusedState.BorderColor = System.Drawing.Color.LightSeaGreen
+        Me.cat.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cat.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.cat.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.cat.Location = New System.Drawing.Point(10, 47)
+        Me.cat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cat.Name = "cat"
+        Me.cat.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.cat.PlaceholderForeColor = System.Drawing.Color.White
+        Me.cat.PlaceholderText = ""
+        Me.cat.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.cat.SelectedText = ""
+        Me.cat.Size = New System.Drawing.Size(178, 23)
+        Me.cat.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
+        Me.cat.TabIndex = 1
+        '
+        'pn
+        '
+        Me.pn.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.pn.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
+        Me.pn.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.pn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.pn.BorderRadius = 10
+        Me.pn.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.pn.DefaultText = ""
+        Me.pn.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.pn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.pn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.pn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.pn.FillColor = System.Drawing.Color.WhiteSmoke
+        Me.pn.FocusedState.BorderColor = System.Drawing.Color.LightSeaGreen
+        Me.pn.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.pn.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.pn.Location = New System.Drawing.Point(10, 14)
+        Me.pn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pn.Name = "pn"
+        Me.pn.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.pn.PlaceholderForeColor = System.Drawing.Color.White
+        Me.pn.PlaceholderText = ""
+        Me.pn.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.pn.SelectedText = ""
+        Me.pn.Size = New System.Drawing.Size(178, 23)
+        Me.pn.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material
+        Me.pn.TabIndex = 0
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(195, 15)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(75, 22)
+        Me.Label3.TabIndex = 778
+        Me.Label3.Text = "اسم المنتج"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Label4.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(217, 48)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(52, 22)
+        Me.Label4.TabIndex = 779
+        Me.Label4.Text = "الصنف"
+        '
+        'Button1
+        '
+        Me.Button1.AutoRoundedCorners = True
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BorderColor = System.Drawing.Color.White
+        Me.Button1.BorderRadius = 14
+        Me.Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(53, Byte), Integer), CType(CType(87, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(80, 86)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(76, 30)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "تم"
+        '
+        'searchformCAT
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ClientSize = New System.Drawing.Size(299, 126)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.cat)
+        Me.Controls.Add(Me.pn)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label4)
+        Me.Name = "searchformCAT"
+        Me.Text = "بحث الصنف"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents cat As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents pn As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Button1 As Guna.UI2.WinForms.Guna2Button
+End Class

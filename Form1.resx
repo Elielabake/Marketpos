@@ -1,0 +1,1545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Name" xml:space="preserve">
+    <value>Guna2Shapes2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Shapes, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1366, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Guna2Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel1.Name" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 20</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>ELPOS-برنامج نقات البيع</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 2</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 24</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Guna2Shapes2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="Guna2Shapes2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1318, 9</value>
+  </data>
+  <data name="Guna2Shapes2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="Guna2Shapes2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Guna2Shapes2.Text" xml:space="preserve">
+    <value>Guna2Shapes2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Name" xml:space="preserve">
+    <value>Guna2Shapes2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Shapes, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.Parent" xml:space="preserve">
+    <value>Guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Shapes2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2Button23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 308</value>
+  </data>
+  <data name="Guna2Button23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 48</value>
+  </data>
+  <data name="Guna2Button23.TabIndex" type="System.Int32, mscorlib">
+    <value>792</value>
+  </data>
+  <data name="Guna2Button23.Text" xml:space="preserve">
+    <value>اعدادات طبع الفاتورة</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button23.Name" xml:space="preserve">
+    <value>Guna2Button23</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button23.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button23.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Guna2Button22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 524</value>
+  </data>
+  <data name="Guna2Button22.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button22.TabIndex" type="System.Int32, mscorlib">
+    <value>791</value>
+  </data>
+  <data name="Guna2Button22.Text" xml:space="preserve">
+    <value>نسخة</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button22.Name" xml:space="preserve">
+    <value>Guna2Button22</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button22.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button22.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Guna2Button21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 308</value>
+  </data>
+  <data name="Guna2Button21.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button21.TabIndex" type="System.Int32, mscorlib">
+    <value>790</value>
+  </data>
+  <data name="Guna2Button21.Text" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button21.Name" xml:space="preserve">
+    <value>Guna2Button21</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button21.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button21.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button21.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Guna2Button20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 362</value>
+  </data>
+  <data name="Guna2Button20.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button20.TabIndex" type="System.Int32, mscorlib">
+    <value>789</value>
+  </data>
+  <data name="Guna2Button20.Text" xml:space="preserve">
+    <value>الفواتير المرتجعة</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button20.Name" xml:space="preserve">
+    <value>Guna2Button20</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button20.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button20.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button20.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Guna2Button19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 362</value>
+  </data>
+  <data name="Guna2Button19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button19.TabIndex" type="System.Int32, mscorlib">
+    <value>788</value>
+  </data>
+  <data name="Guna2Button19.Text" xml:space="preserve">
+    <value>سجل البيع</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button19.Name" xml:space="preserve">
+    <value>Guna2Button19</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button19.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button19.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button19.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Guna2Button15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 416</value>
+  </data>
+  <data name="Guna2Button15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button15.TabIndex" type="System.Int32, mscorlib">
+    <value>787</value>
+  </data>
+  <data name="Guna2Button15.Text" xml:space="preserve">
+    <value>حركة الزبائن</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button15.Name" xml:space="preserve">
+    <value>Guna2Button15</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button15.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button15.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button15.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Guna2PictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Guna2PictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 8</value>
+  </data>
+  <data name="Guna2PictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 123</value>
+  </data>
+  <data name="Guna2PictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Guna2PictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>786</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox3.Name" xml:space="preserve">
+    <value>Guna2PictureBox3</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox3.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Guna2Button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 578</value>
+  </data>
+  <data name="Guna2Button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button7.TabIndex" type="System.Int32, mscorlib">
+    <value>783</value>
+  </data>
+  <data name="Guna2Button7.Text" xml:space="preserve">
+    <value>ديون الزبائن</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button7.Name" xml:space="preserve">
+    <value>Guna2Button7</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button7.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button7.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Guna2Button14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1056, 533</value>
+  </data>
+  <data name="Guna2Button14.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 31</value>
+  </data>
+  <data name="Guna2Button14.TabIndex" type="System.Int32, mscorlib">
+    <value>782</value>
+  </data>
+  <data name="Guna2Button14.Text" xml:space="preserve">
+    <value>جميع الطلبات</value>
+  </data>
+  <data name="Guna2Button14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button14.Name" xml:space="preserve">
+    <value>Guna2Button14</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button14.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button14.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Guna2Button13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1056, 496</value>
+  </data>
+  <data name="Guna2Button13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 31</value>
+  </data>
+  <data name="Guna2Button13.TabIndex" type="System.Int32, mscorlib">
+    <value>781</value>
+  </data>
+  <data name="Guna2Button13.Text" xml:space="preserve">
+    <value>الطلبات</value>
+  </data>
+  <data name="Guna2Button13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button13.Name" xml:space="preserve">
+    <value>Guna2Button13</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button13.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button13.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button13.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel5</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Guna2GradientPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1087, 443</value>
+  </data>
+  <data name="Guna2GradientPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 37</value>
+  </data>
+  <data name="Guna2GradientPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>780</value>
+  </data>
+  <data name="Guna2GradientPanel5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel5.Name" xml:space="preserve">
+    <value>Guna2GradientPanel5</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel5.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel5.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Guna2Button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 23</value>
+  </data>
+  <data name="Guna2Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 61</value>
+  </data>
+  <data name="Guna2Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>778</value>
+  </data>
+  <data name="Guna2Button3.Text" xml:space="preserve">
+    <value>تغيير المستخدم</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button3.Name" xml:space="preserve">
+    <value>Guna2Button3</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button3.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 470</value>
+  </data>
+  <data name="Guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>777</value>
+  </data>
+  <data name="Guna2Button2.Text" xml:space="preserve">
+    <value>المنتجات المطلوبة</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Name" xml:space="preserve">
+    <value>Guna2Button2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 253</value>
+  </data>
+  <data name="Guna2Button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 48</value>
+  </data>
+  <data name="Guna2Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>776</value>
+  </data>
+  <data name="Guna2Button1.Text" xml:space="preserve">
+    <value>المعدات</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Name" xml:space="preserve">
+    <value>Guna2Button1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="id.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1031, 378</value>
+  </data>
+  <data name="id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="id.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="id.TabIndex" type="System.Int32, mscorlib">
+    <value>775</value>
+  </data>
+  <data name="id.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;id.Name" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="&gt;&gt;id.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;id.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;id.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="maindate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="maindate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 602</value>
+  </data>
+  <data name="maindate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="maindate.TabIndex" type="System.Int32, mscorlib">
+    <value>774</value>
+  </data>
+  <data name="maindate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;maindate.Name" xml:space="preserve">
+    <value>maindate</value>
+  </data>
+  <data name="&gt;&gt;maindate.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DateTimePicker, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;maindate.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;maindate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Guna2GradientPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="Guna2GradientPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 61</value>
+  </data>
+  <data name="Guna2GradientPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Name" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 132</value>
+  </data>
+  <data name="Guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 54</value>
+  </data>
+  <data name="Guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Name" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Guna2GradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 132</value>
+  </data>
+  <data name="Guna2GradientPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 54</value>
+  </data>
+  <data name="Guna2GradientPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Name" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Guna2GradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 132</value>
+  </data>
+  <data name="Guna2GradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 54</value>
+  </data>
+  <data name="Guna2GradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Name" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2GradientPanel1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Guna2Button16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 595</value>
+  </data>
+  <data name="Guna2Button16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 31</value>
+  </data>
+  <data name="Guna2Button16.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Guna2Button16.Text" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="Guna2Button16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button16.Name" xml:space="preserve">
+    <value>Guna2Button16</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button16.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button16.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button16.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Guna2Button17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 254</value>
+  </data>
+  <data name="Guna2Button17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button17.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Guna2Button17.Text" xml:space="preserve">
+    <value>الصندوق</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button17.Name" xml:space="preserve">
+    <value>Guna2Button17</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button17.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button17.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button17.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Guna2Button18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 200</value>
+  </data>
+  <data name="Guna2Button18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 48</value>
+  </data>
+  <data name="Guna2Button18.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Guna2Button18.Text" xml:space="preserve">
+    <value>الأرباح اليومية</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button18.Name" xml:space="preserve">
+    <value>Guna2Button18</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button18.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button18.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button18.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Guna2Button12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 200</value>
+  </data>
+  <data name="Guna2Button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 48</value>
+  </data>
+  <data name="Guna2Button12.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Guna2Button12.Text" xml:space="preserve">
+    <value>الأصناف و سعر الدولار</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button12.Name" xml:space="preserve">
+    <value>Guna2Button12</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button12.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button12.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button12.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Guna2Button11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 632</value>
+  </data>
+  <data name="Guna2Button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button11.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Guna2Button11.Text" xml:space="preserve">
+    <value>ديون العميل</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button11.Name" xml:space="preserve">
+    <value>Guna2Button11</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button11.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button11.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button11.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Guna2Button10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 524</value>
+  </data>
+  <data name="Guna2Button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button10.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Guna2Button10.Text" xml:space="preserve">
+    <value> الزبائن</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button10.Name" xml:space="preserve">
+    <value>Guna2Button10</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button10.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button10.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button10.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Guna2Button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 470</value>
+  </data>
+  <data name="Guna2Button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Guna2Button9.Text" xml:space="preserve">
+    <value>المصاريف</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button9.Name" xml:space="preserve">
+    <value>Guna2Button9</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button9.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button9.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button9.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Guna2Button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 416</value>
+  </data>
+  <data name="Guna2Button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button8.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Guna2Button8.Text" xml:space="preserve">
+    <value>جميع الطلبات</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button8.Name" xml:space="preserve">
+    <value>Guna2Button8</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button8.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button8.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button8.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Guna2Button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 308</value>
+  </data>
+  <data name="Guna2Button6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Guna2Button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Guna2Button6.Text" xml:space="preserve">
+    <value>الفواتير/الموردين</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button6.Name" xml:space="preserve">
+    <value>Guna2Button6</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button6.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button6.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button6.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Guna2Button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 254</value>
+  </data>
+  <data name="Guna2Button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Guna2Button5.Text" xml:space="preserve">
+    <value>المخزون</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button5.Name" xml:space="preserve">
+    <value>Guna2Button5</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button5.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button5.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button5.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Guna2Button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Guna2Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>523, 200</value>
+  </data>
+  <data name="Guna2Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 48</value>
+  </data>
+  <data name="Guna2Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Guna2Button4.Text" xml:space="preserve">
+    <value>الطلبات</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Name" xml:space="preserve">
+    <value>Guna2Button4</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Button4.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Labelt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Labelt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="Labelt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Labelt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 87</value>
+  </data>
+  <data name="Labelt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="Labelt.TabIndex" type="System.Int32, mscorlib">
+    <value>498</value>
+  </data>
+  <data name="Labelt.Text" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="Labelt.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Labelt.Name" xml:space="preserve">
+    <value>Labelt</value>
+  </data>
+  <data name="&gt;&gt;Labelt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Labelt.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Labelt.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Guna2PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Guna2PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="Guna2PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 708</value>
+  </data>
+  <data name="Guna2PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Guna2PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>785</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox2.Name" xml:space="preserve">
+    <value>Guna2PictureBox2</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox2.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Guna2PictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Guna2PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Guna2PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Guna2PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1366, 741</value>
+  </data>
+  <data name="Guna2PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Guna2PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>784</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox1.Name" xml:space="preserve">
+    <value>Guna2PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox1.Parent" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2PictureBox1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Guna2Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Guna2Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="Guna2Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1366, 741</value>
+  </data>
+  <data name="Guna2Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Name" xml:space="preserve">
+    <value>Guna2Panel2</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Guna2Panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 5</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 25</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel5</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 25</value>
+  </data>
+  <data name="Label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 24</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 0</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel4</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20.25pt, style=Bold</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 11</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 31</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>التقارير و الاحصائات</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20.25pt, style=Bold</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 12</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 31</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>البيانات الثابتة</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel2</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 11</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 31</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>الصفحة الاساسية</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1366, 768</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
